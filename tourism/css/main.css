@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Mali|Sacramento&display=swap');
+*{
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../assets/alexander-kunze-uLh71gTmZ4g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .navbar{
+    padding-top: 4vh;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar .navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.7rem;
+    color: #fff;
+} 
+.navbar-dark .navbar-nav .nav-link{
+    font-family: 'Sacramento', cursive;
+    font-size: 1.7rem;
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff
+}
+header .container .row{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: 'Mali', cursive;
+}
+header .container .row h1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    font-size: 3rem;
+    font-weight: bold;
+}
+header .container .row .fa-map-marker-alt{
+    color: #FF4133;
+    text-shadow: 0px 10px 20px #454545;
+}
+header .container .row p{
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 1rem;
+    text-align: justify-center;
+}
+header .container .row .btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    background-color: #fff;
+}
+header .container .row .btn:hover{
+    box-shadow: 0px 5px 7px #454545;
+}
+
+main .container{
+    margin-top: 25vh;
+}
+
+.container:nth-child(odd) .col-md-6 .card{
+    border: none;
+    font-family: 'Mali', cursive;
+}
+.container:nth-child(odd) .col-md-6 .card h3{
+    font-size: 2.3rem;
+}
+.container:nth-child(odd) .col-md-6 .card p{
+    margin-top: 7vh;
+}
+.container:nth-child(odd) .col-md-6 .card .btn{
+    border: solid 1px #181818;
+    border-radius: none;
+    transition: all 0.3s ease-in-out;
+}
+.container:nth-child(odd) .col-md-6 .card .btn:hover{
+    background-color: #181818;
+    color: #fff;
+}
+.container:nth-child(odd) .col-md-6 .img-card{
+    border: solid;
+    padding: 5% 5%;
+    border-radius: 0;
+    border-width: 7px;
+    border-color: #181818;
+}
+.container:nth-child(odd) .col-md-6 .card img{
+    width: 100%;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 7px #ccc;
+}
+
+.container:nth-child(even) .col-md-6 .card{
+    border: none;
+    font-family: 'Mali', cursive;
+}
+.container:nth-child(even) .col-md-6 .card h3{
+    font-size: 2.3rem;
+}
+.container:nth-child(even) .col-md-6 .card p{
+    margin-top: 7vh;
+}
+.container:nth-child(even) .col-md-6 .card .btn{
+    border: solid 1px #181818;
+    border-radius: none;
+    transition: all 0.3s ease-in-out;
+}
+.container:nth-child(even) .col-md-6 .card .btn:hover{
+    background-color: #181818;
+    color: #fff;
+}
+.container:nth-child(even) .col-md-6 .img-card{
+    border: solid;
+    padding: 5% 5%;
+    border-radius: 0;
+    border-width: 7px;
+    border-color: #181818;
+}
+.container:nth-child(even) .col-md-6 .card img{
+    width: 100%;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 7px #ccc;
+}
+
+.section-two .col-md-3:nth-child(1) .card{
+    background-image: linear-gradient(rgba(0,118,206,0.8), rgba(0,118,206,0.8)),url(../assets/country.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 0px 3px 5px #003B67;
+    box-shadow: 0px 10px 20px #ccc;
+    border: none;
+}
+.section-two .col-md-3:nth-child(2) .card{
+    background-image: linear-gradient(rgba(0,118,206,0.8), rgba(0,118,206,0.8)),url(../assets/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 0px 3px 5px #003B67;
+    box-shadow: 0px 10px 20px #ccc;
+    border: none;
+}
+.section-two .col-md-3:nth-child(3) .card{
+    background-image: linear-gradient(rgba(0,118,206,0.8), rgba(0,118,206,0.8)),url(../assets/island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 0px 3px 5px #003B67;
+    box-shadow: 0px 10px 20px #ccc;
+    border: none;
+}
+.section-two .col-md-3:nth-child(4) .card{
+    background-image: linear-gradient(rgba(0,118,206,0.8), rgba(0,118,206,0.8)),url(../assets/editor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 0px 3px 5px #003B67;
+    box-shadow: 0px 10px 20px #ccc;
+    border: none;
+}
+.section-two .col-md-3 .card .card-title{
+    margin-top: 20vh;
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+.section-two .col-md-3 .card p{
+    margin-top: 5vh;
+    font-family: 'Mali', cursive;
+    text-align: center;
+    font-size: 0.7rem;
+    text-shadow: none;
+    margin-bottom: 15vh;
+}
+
+
+.section-three{
+    margin-top: 25vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../assets/review.jpg);
+    font-family: 'Mali', cursive;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    overflow-y: wrap;  
+}
+.section-three .row h1{
+    margin-top: 15vh;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.section-three .row hr{
+    margin-top: 5vh;
+    width: 60%;
+    background-color: #fff;
+}
+.section-three .col-md-12 .carousel-inner{
+    overflow-y: hidden;
+    height: 70vh;
+}
+.section-three .col-md-12 .card{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color:#fff;
+}
+.section-three .col-md-12 .card-body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section-four .col-md-6 .card{
+    width: 80%;
+}
+.section-four .col-md-6 .form{
+    font-family: 'Mali', cursive;
+}
+.section-four .col-md-6 .form textarea{
+    width: 100%;
+}
+.section-four .col-md-6 .form .btn{
+    width: 80%;
+    margin-top: 2vh;
+    border-radius: 0;
+    background-color: #181818;
+    color: #fff;
+}
+.section-four .col-md-6 .form .btn:hover{
+    box-shadow: 0px 10px 20px #ccc;
+}
+
+
+
+/************************************MEDIA QUERIES********************************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    header .navbar{
+        padding-top: 2vh;
+        width: 98%;
+    }  
+    header .container .row h1{
+        font-size: 2rem
+    }
+    header .container .row p{
+        font-size: 0.9rem;
+    }
+    main .container{
+        margin-top: 9vh;
+    }
+    .container .col-md-6 .img-card{
+        display: none;
+    }
+    .section-two .col-md-3 .card{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-two .col-md-3 .card .card-title{
+        margin-top: 3vh;
+    }
+    .section-two .col-md-3 .card p{
+        margin-bottom:  3vh;
+    }
+    .section-three{
+        margin-top: 9vh;
+    }
+    .section-three .row h1{
+        font-size: 1.4rem;
+        margin-top: 7vh;
+    }
+    .section-three .row hr{
+        width: 90%;
+        margin-top: 2vh;
+    }
+    .section-three .col-md-12 .card-body{
+        width: 90%;
+    }
+    .section-three .col-md-12 .card{
+        margin-top: 4vh;
+        font-size: 0.7rem;
+    }
+    .section-three .col-md-12 .carousel-inner{
+        height: 60vh;
+    }
+    .section-four .col-md-6 .card{
+        width: 100%;
+        font-size: 1rem;
+    } 
+    .section-four .col-md-6 form{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header .navbar{
+        padding-top: 2vh;
+        width: 98%;
+    }  
+    header .container .row h1{
+        font-size: 2rem
+    }
+    header .container .row p{
+        font-size: 0.9rem;
+    }
+    main .container{
+        margin-top: 5vh;
+    }
+    .container .col-md-6 .img-card{
+        display: none;
+    }
+    .section-two .col-md-3 .card{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-two .col-md-3 .card .card-title{
+        margin-top: 3vh;
+    }
+    .section-two .col-md-3 .card p{
+        margin-bottom:  3vh;
+    }
+    .section-three{
+        margin-top: 5vh;
+    }
+    .section-three .row h1{
+        font-size: 1.4rem;
+        margin-top: 7vh;
+    }
+    .section-three .row hr{
+        width: 90%;
+        margin-top: 2vh;
+    }
+    .section-three .col-md-12 .card-body{
+        width: 90%;
+    }
+    .section-three .col-md-12 .card{
+        margin-top: 4vh;
+        font-size: 0.9rem;
+    }
+    .section-three .col-md-12 .carousel-inner{
+        height: 40vh;
+    }
+    .section-four .col-md-6 .card{
+        width: 100%;
+        font-size: 1rem;
+    } 
+    .section-four .col-md-6 form{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    main .container{
+        margin-top: 7vh;
+    }
+    .section-two .col-md-3 .card{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-two .col-md-3 .card .card-title{
+        margin-top: 3vh;
+        font-size: 1.4rem;
+    }
+    .section-two .col-md-3 .card p{
+        margin-bottom:  3vh;
+    }
+    .section-three{
+        margin-top: 7vh;
+    }
+    .section-three .row h1{
+        font-size: 1.4rem;
+        margin-top: 3vh;
+    }
+    .section-three .row hr{
+        width: 80%;
+        margin-top: 2vh;
+    }
+    .section-three .col-md-12 .card-body{
+        width: 90%;
+    }
+    .section-three .col-md-12 .card{
+        margin-top: 4vh;
+        font-size: 1.2rem;
+    }
+    .section-three .col-md-12 .carousel-inner{
+        height: 45vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    main .container{
+        margin-top: 10vh;
+    }
+    .section-two .col-md-3 .card{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-two .col-md-3 .card .card-title{
+        margin-top: 3vh;
+    }
+    .section-two .col-md-3 .card p{
+        margin-bottom:  3vh;
+    }
+    .section-three{
+        margin-top: 10vh;
+    }
+    .section-three .row h1{
+        font-size: 1.4rem;
+        margin-top: 3vh;
+    }
+    .section-three .row hr{
+        width: 80%;
+        margin-top: 2vh;
+    }
+    .section-three .col-md-12 .card-body{
+        width: 90%;
+    }
+    .section-three .col-md-12 .card{
+        margin-top: 4vh;
+        font-size: 1rem;
+    }
+    .section-three .col-md-12 .carousel-inner{
+        height: 30vh;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1300px) {  
+    .navbar .navbar-brand{
+        font-size: 3rem;
+    }
+    .navbar .navbar-link{
+        font-size: 2rem;
+    }
+    header .container .row h1{
+        font-size: 3.3rem;
+    }
+    header .container .row p{
+        font-size: 1.3rem;
+    }
+    main .container{
+        margin-top: 15vh;
+    }
+    .section-three .col-md-12 .carousel-inner{
+        height: 40vh;
+    }
+}

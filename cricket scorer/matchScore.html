@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scorer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/0b5751010d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a href="" class="navbar-brand">
+                <span>S</span>
+                <span>C</span>
+                <span>O</span>
+                <span>R</span>
+                <span>E</span>
+                <span>R</span>
+            </a>
+            <a href="" class="ml-auto"><i class="fas fa-user"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="basic-details">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="team1" >Home Team Name:</label>
+                            <input type="text" name="team1" id="team1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="team2">Away Team Name:</label>
+                            <input type="text" name="team2" id="team2" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Ground Name</label>
+                            <input type="text" name="loc" id="loc" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="toss" >Toss Won By:</label>
+                            <select name="toss" id="toss" class="form-control">
+                                <option value="1">Team 1</option>
+                                <option value="2">Team 2</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="team2">Team chose to:</label>
+                            <select name="opt" id="opt" class="form-control">
+                                <option value="1">Bat First</option>
+                                <option value="2">Bowl First</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="team2">Number of overs:</label>
+                            <select name="opt" id="opt" class="form-control">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                                <option value="30">30</option>
+                                <option value="40">40</option>
+                                <option value="50">50</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </section>
+        <section class="team-name">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <form action="">
+                        <label for="team-1">Team 1</label>
+                        <input type="text" name="play1-1" placeholder="Player 1" class="form-control">
+                        <input type="text" name="play1-2" placeholder="Player 2" class="form-control">
+                        <input type="text" name="play1-3" placeholder="Player 3" class="form-control">
+                        <input type="text" name="play1-4" placeholder="Player 4" class="form-control">
+                        <input type="text" name="play1-5" placeholder="Player 5" class="form-control">
+                        <input type="text" name="play1-6" placeholder="Player 16" class="form-control">
+                        <input type="text" name="play1-7" placeholder="Player 7" class="form-control">
+                        <input type="text" name="play1-8" placeholder="Player 8" class="form-control">
+                        <input type="text" name="play1-9" placeholder="Player 9" class="form-control">
+                        <input type="text" name="play1-10" placeholder="Player 10" class="form-control">
+                        <input type="text" name="play1-11" placeholder="Player 11" class="form-control">
+                    </form>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <form action="">
+                        <label for="team-1">Team 2</label>
+                        <input type="text" name="play2-1" placeholder="Player 1" class="form-control">
+                        <input type="text" name="play2-2" placeholder="Player 2" class="form-control">
+                        <input type="text" name="play2-3" placeholder="Player 3" class="form-control">
+                        <input type="text" name="play2-4" placeholder="Player 4" class="form-control">
+                        <input type="text" name="play2-5" placeholder="Player 5" class="form-control">
+                        <input type="text" name="play2-6" placeholder="Player 16" class="form-control">
+                        <input type="text" name="play2-7" placeholder="Player 7" class="form-control">
+                        <input type="text" name="play2-8" placeholder="Player 8" class="form-control">
+                        <input type="text" name="play2-9" placeholder="Player 9" class="form-control">
+                        <input type="text" name="play2-10" placeholder="Player 10" class="form-control">
+                        <input type="text" name="play2-11" placeholder="Player 11" class="form-control">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

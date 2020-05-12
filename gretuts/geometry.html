@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script> 
+    <title>GreTuts</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">GreTuts</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">Section</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+    </nav>
+          
+            
+    
+</body>
+</html>
+
+
+<br><br><br>
+
+<div class="card">
+    <div class="card-header">
+    <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Properties of Polygons</div>
+    </div>
+    <br><br><br>
+    <div class="card-body">
+    <div class="list-group list-div" style="width: 29rem;">
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(1);">Trinagle</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(2);">Quadrilateral</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(3);">Pentagon</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(4);">Hexagon</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(5);">Heptagon/Septagon</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(6);">Octagon</button>
+    </div>
+    <div class="list-group list-div" style="width: 21rem;">
+        <div class="alert alert-success">
+            <strong>Sides: 3, Sum of internal angles: 180<sup>o</sup></strong>
+        </div>
+        <div class="alert alert-info">
+            <strong>Sides: 4, Sum of internal angles: 360<sup>o</sup></strong>
+        </div>
+        <div class="alert alert-warning">
+            <strong>Sides: 5, Sum of internal angles: 540<sup>o</sup></strong>
+        </div>
+        <div class="alert alert-danger">
+            <strong>Sides: 6, Sum of internal angles: 720<sup>o</sup></strong>
+        </div>
+        <div class="alert alert-primary">
+            <strong>Sides: 7, Sum of internal angles: 900<sup>o</sup></strong>
+        </div>
+        <div class="alert alert-danger">
+            <strong>Sides: 8, Sum of internal angles: 1080<sup>o</sup></strong>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Triangle</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 39rem;">
+                <p>Sum of two sides of a traingle is always greater than third side. Consider a &#9651;ABC whose sides measures a,b and c resp.Th property states that <strong>(a + b) > c OR (b + c) > a OR (a + c) > b</strong></p>
+                <ul>Types of Triangles
+                    <li><strong>Equilateral Triangle</strong>: Sides are equal in length. Angles are also equal and measures 60<sup>o</sup></li>
+                    <li><strong>Right-angled Triangle</strong>: One of the angle of triangle equal measures 90<sup>o</sup>. There are two types of right angled triangle. 45-45-90 and 30-60-90.</li>
+                    <li><strong>Iscoscles Triangle</strong>: Any two sides and angles opposite to the two sides of traingle are equal resp. </li>
+                </ul>
+                <p><strong>Pythagoras Theorem</strong>: In a &#9722;ABC, where angle B measures 90<sup>o</sup>, the sum of the squares of two sides is also qual to square of the hypotenuse i.e. <strong>(AB)<sup>2</sup> + (BC)<sup>2</sup> = (AC)<sup>2</sup></strong></p>
+                <p><strong>30-60-90 &#9722;</strong> : In a &#9722; with angle measuring 30<sup>o</sup>, 60<sup>o</sup> and 90<sup>o</sup>, the ratio of the length of sides opposite to angle will be <strong>1 : &radic;3 : 2</strong></p>
+                <p><strong>45-45-90 &#9722;</strong> : In a &#9722; with angle measuring 45<sup>o</sup>, 45<sup>o</sup> and 90<sup>o</sup>, the ratio of the length of sides opposite to angle will be <strong>1 : 1 : &radic;2</strong></p>
+                <p><strong>Perimeter of Triangle:    a + b + c</strong></p>
+                <p><strong>Area of Triangle:     (height x base) / 2</strong></p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(7);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 20rem;">
+                <div class="alert alert-success">
+                    <p>Pythagoras Triplets: (3,4,5), (6,8,10), (9,12,15), (5,12,13), (12,16,20), (10,24,26)</p>
+                    <p>Area of quilateral &#9651; : (a<sup>3</sup>&radic;3) / 4</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Quadrilateral</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 60rem;">
+                <ul>Types of Quadrilateral: </ul>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <th scope="col">Type</th>
+                        <th scope="col">Sides</th>
+                        <th scope="col">Interior Angles</th>
+                        <th scope="col">Perimeter</th>
+                        <th scope="col">Area</th>
+                        <th scope="col">Length of Diagonal</th>
+                    </thead>
+                    <tr>
+                        <td scope="row">Square</td>
+                        <td>All are equal</td>
+                        <td>90<sup>0</sup> each</td>
+                        <td>4a</td>
+                        <td>a<sup>2</sup></td>
+                        <td>a&radic;2</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Rectangle</td>
+                        <td>Opposite sides are equal</td>
+                        <td>90<sup>0</sup> each</td>
+                        <td>2(a + b)</td>
+                        <td>ab</td>
+                        <td>&radic;(a<sup>2</sup> + b<sup>2</sup>)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Rhombus</td>
+                        <td>All are equal</td>
+                        <td>opposite angles are equal</td>
+                        <td>4a</td>
+                        <td></td>
+                        <td>a&radic;2</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Trapezoid</td>
+                        <td>One pair of opposite sides are equal</td>
+                        <td></td>
+                        <td>Sum of all sides</td>
+                        <td>1/2 x (b<sub>1</sub> + b<sub>2</sub>) x h</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Circle</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <p>Radius: r</p>
+                <p>Diameter: d = 2r</p>
+                <p><strong>Circumference : 2&#928;r</strong></p>
+                <p><strong>Area: &#928;r<sup>2</sup></strong></p>
+                <p><strong>Length of an arc: (&#952; / 360) x (2&#928;r)</strong></p>
+                <p><strong>Area of Sector: (&#952; / 360) x (&#928;r<sup>2</sup>)</strong></p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(8);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 20rem;">
+                <div class="alert alert-success">
+                    <p>Diameter is the longest chord in circle.</p>
+                    <p>The angle fromed by diameter at circumference is equal to 90<sup>o</sup></p>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">3D-Sections</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 60rem;">
+                <ul>Types of Quadrilateral: </ul>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <th scope="col">Type</th>
+                        <th scope="col">Sides</th>
+                        <th scope="col">Volume</th>
+                        <th scope="col">Total Surface Area</th>
+                        <th scope="col">Curved Surface Area</th>
+                        <th scope="col">Length of Diagonal</th>
+                    </thead>
+                    <tr>
+                        <td scope="row">Cube</td>
+                        <td>a</td>
+                        <td>a<sup>3</sup> each</td>
+                        <td>6a<sup>2</sup></td>
+                        <td>4a<sup>2</sup></td>
+                        <td>a&radic;3</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Cuboid</td>
+                        <td>l, b, h</td>
+                        <td>l x b x h</td>
+                        <td>2(lb + bh +lh)</td>
+                        <td>2(lh + bh)</td>
+                        <td>&radic;(l<sup>2</sup> + b<sup>2</sup> + h<sup>2</sup>)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Right Circular Cylinder</td>
+                        <td>r, h</td>
+                        <td>&#928;r<sup>2</sup>h</td>
+                        <td>2&#928;rh + 2&#928;r<sup>2</sup></td>
+                        <td>2&#928;rh</td>
+                        <td>NA</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Right Circular Cone</td>
+                        <td>r, h, l</td>
+                        <td>(1/3)(&#928;r<sup>2</sup>h)</td>
+                        <td>&#928;rl + &#928;r<sup>2</sup></td>
+                        <td>&#928;rl</td>
+                        <td>Slant height(l) = &radic;r<sup>2</sup> + h<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Sphere</td>
+                        <td>r</td>
+                        <td>(4/3)(&#928;r<sup>3</sup>)</td>
+                        <td>NA</td>
+                        <td>4&#928;r<sup>2</sup></td>
+                        <td>NA</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Co-ordinate Geometry</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 39rem;">
+                <p><strong>Distance Formula: &radic;((x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup>)</strong></p>
+                <p>Mid Point Formula: [((x<sub>1</sub> - x<sub>2</sub>) / 2) , ((y<sub>1</sub> - y<sub>2</sub>) / 2)]</p>
+                <p><strong>Slope-Intercept Form: y = mx + c</strong> where m is a slope of line and c is a y-intercept.</p>
+                <p><strong>Point-Slope Form: (y - y<sub>1</sub>) = m(x - x<sub>1</sub>)</strong> where m is a slope of line and (x<sub>1</sub>, y<sub>1</sub>) is the point through which line passes.</p>
+                <p><strong>Two-Point Form:  (y - y<sub>1</sub>) / (y<sub>2</sub> - y<sub>1</sub>) = (x - x<sub>1</sub>) / (x<sub>2</sub> - x<sub>1</sub>)</strong> where (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) are two points through which line is passing.</p>
+                <p><strong>Double-Intercept Form: (x / a) + (y / b) = 1 </strong>where a is a x-intercept and b is a y-intercept.</p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(9);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 20rem;">
+                <div class="alert alert-success">
+                    <p>If <strong>two lines</strong> whose slope are m<sub>1</sub> and m<sub>2</sub> are <strong>parallel</strong> to each other then <strong>m<sub>1</sub> = m<sub>2</sub></strong></p>
+                    <p>If <strong>two lines</strong> whose slope are m<sub>1</sub> and m<sub>2</sub> are <strong>perpendicular</strong> to each other then <strong>m<sub>1</sub> x m<sub>2</sub> = -1</strong></p>    
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+
+}
+.rect{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    animation-name: rect-off;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    z-index: 2;
+}
+@keyframes rect-off{
+    from{
+        z-index: 2;
+    }
+    to{
+        z-index: -2;
+    }
+}
+.ellipse{
+    position: absolute;
+    left: 48vw;
+    top: 48vh;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: transparent;
+    animation-name: ellipse-expand;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    z-index: -1;
+}
+@keyframes ellipse-expand{
+    from{
+        width: 4vw;
+        height: 4vw;
+        left: 48vw;
+        top: 48vh;
+        z-index: 3;
+    }
+    to{
+        width: 150vw;
+        height: 150vw;
+        left: -25vw;
+        top: -50vh;
+        z-index: -1;
+        background-color: #ea003b;
+    }
+}
+header{
+    z-index: 1;
+}
+
+.hamburger-icon{
+    position: absolute;
+    left: 3vw;
+    top: -3vw;
+    animation-name: element-pop;
+    animation-duration: 0.6s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+}
+.fas{
+    transition: 0.3s all ease-in-out;
+}
+.fa-bars{
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+.fa-times{
+    font-size: 3rem;
+    color: #181818;
+    cursor: pointer;
+    display: none;
+    text-shadow: 0px 10px 20px #a5a5a5;
+}
+nav{
+    margin: 0 0;
+    padding: 0 0;
+    width: 0vw;
+    transition: 0.3s all ease-in-out;
+    height: 100vh;
+    background-color: #FEF8FA;
+}
+nav ul{
+    margin:  0 0;
+    padding:  0 0;
+    padding-top: 30vh;
+    list-style-type: none;
+}
+nav li{
+    margin: 0 0;
+    padding: 0 0;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li a{
+    display: none;
+    margin:  0 0;
+    padding:  0 0;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-decoration-style: none;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+nav ul li:hover {
+    background-color: #FCE7ED;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #181818;
+}
+.logo{
+    position: absolute;
+    right: 3vw;
+    top: -3vw;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    color: #fff;   
+    animation-name: element-pop;
+    animation-duration: 0.6s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+}
+.container-fluid{
+    position: absolute;
+    left: 0;
+    top: -100vh;
+    transition: 0.3s all ease-in-out;
+    animation-name: element-pop-1;
+    animation-duration: 0.5s;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+}
+.container-fluid .row{
+    margin-top: 30vh;
+}
+.container-fluid .row .col-sm-10{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid .row .col-sm-10 span{
+    position: relative;
+    width: 8vw;
+    height: 8vw;
+    top: -8vw;
+    left: 1vw;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px #a3a3a3;
+    border-radius: 50%;
+}
+.container-fluid .row .col-sm-10 span .fa-user{
+    font-size: 5rem;
+    color: #ea003b;
+    margin-top: 20%;
+}
+.col-sm-10 .card{
+    padding: 3% 3%;
+    font-family: 'Montserrat', sans-serif;
+} 
+.col-sm-10 .card .card-title{
+    margin-top: -15vh;
+    margin-bottom: 3vw;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.col-sm-10 .card .card-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+@keyframes element-pop{
+    from{
+        top: -3vw;
+    }
+    to{
+        top: 3vw;
+    }
+}
+@keyframes element-pop-1{
+    from{
+        top: -100vw;
+    }
+    to{
+        top: 5vw;
+    }
+}

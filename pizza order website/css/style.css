@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:700|Dosis&display=swap');
+*{
+    margin: 0 0;
+    padding:  0 0;
+    box-sizing: border-box;
+}
+header{
+    background: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.navbar-light .navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    color: #191702;
+    font-stretch: extra-condensed;
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #191702;
+}
+.card-bg{
+    margin: 0 0;
+    padding: 0 0;
+    width: 478px;
+    height: 471px;
+    background-image: url('/assets/pizzabg.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+.container-1-card-1{
+    border: none;
+}
+.container-1-card-1 .card-header{
+    background: none;
+    border: none;
+}

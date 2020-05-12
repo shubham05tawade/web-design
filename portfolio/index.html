@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/0b5751010d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <span class="hamburger-icon" onclick="toggleMenu();">
+      <i id="t1" class="fas fa-bars"></i>
+      <i id="t2" class="fas fa-times"></i>
+    </span>
+    <span class="logo">Loststyles</span>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href='#' id="link1">Home</a>
+        </li>
+        <li>
+          <a href='#' id="link2">Portfolio</a>
+        </li>
+        <li>
+          <a href='#' id="link3">About Me</a>
+        </li>
+        <li>
+          <a href='#' id="link4">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <span class="rect"></span>
+    <span class="ellipse"></span>
+    <div class="container-fluid" id="banner">
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="card">
+            <span class="user-pic">
+              <i class="fas fa-user"></i>
+            </span>
+            <div class="card-body">
+              <h3 class="card-title">Hello,</h3>
+              <p class="card-text">Welcome to LostStyles. I like to design digital pages that are pixel perfect. I love building easy, immaculate websites and user interface that are easy to use and satisfying to look at. I specialize in producing user-engaging experience designs. If you loved my work posted on portfolio section and want your website to look cool as that, feel free to drop me a mail. Please do checkout my blog to follow new trends in web design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <script>
+      var counter = 2;
+      function toggleMenu(){
+        if(counter % 2 == 0){
+          document.getElementById('t1').style.display="none";
+          document.getElementById('banner').style.left="30vw"
+          document.getElementById('banner').style.width="70vw"
+          document.getElementById('navbar').style.width="30vw";
+          document.getElementById('link1').style.display="block";
+          document.getElementById('link2').style.display="block";
+          document.getElementById('link3').style.display="block";
+          document.getElementById('link4').style.display="block";
+          document.getElementById('t2').style.textShadow='0px 20px 40px #FCE7ED';
+          document.getElementById('t2').style.display="block";   
+          counter++;
+          console.log('in if');
+        }
+        else{
+          document.getElementById('t2').style.display="none";
+          document.getElementById('navbar').style.width="0vw";
+          document.getElementById('link1').style.display="none";
+          document.getElementById('link2').style.display="none";
+          document.getElementById('link3').style.display="none";
+          document.getElementById('link4').style.display="none";
+          document.getElementById('banner').style.left="0vw"
+          document.getElementById('banner').style.width="100vw"
+          document.getElementById('t1').style.display="block";   
+          counter++;
+
+        }
+
+      }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

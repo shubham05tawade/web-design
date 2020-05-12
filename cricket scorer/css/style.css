@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Geo|Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #89dc2a;
+}
+.navbar{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;    
+}
+.navbar-brand span{
+    font-family: 'Geo', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #222222;
+    padding: 2% 10%;
+}
+.navbar-brand span:nth-child(3){
+    background-color: #dddddd;
+    color: #222222;
+}
+.navbar a .fa-user{
+    padding-top: 2%;
+    font-size: 2.5rem;
+    color: #222222;
+}
+main a{
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    border-radius: 50%;
+    background-color:#fff;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 2%;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0px 10px 20px #446E15;
+    transition: 0.3s all ease-in-out;
+}
+main a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #9C0000;
+    box-shadow: none;
+}
+main a:nth-child(1){
+    margin-top: 30vh;
+}
+.basic-details .col-sm-6{
+    background-color: aqua;
+}
+.basic-details label{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.team-name .col-sm-6{
+    padding: 2% 6%;
+}
+.team-name input{
+    margin-top: 2vh;
+
+}

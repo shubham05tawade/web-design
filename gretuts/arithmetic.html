@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script> 
+    <title>GreTuts</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">GreTuts</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">Section</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+    </nav>
+
+    <br><br><br><br>
+    <div class="card">
+    <div class="card-header">
+    <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Integers, Fraction, Decimals & Real Numbers</div>
+    </div>
+
+    <br><br><br>
+    <div class="card-body">
+    <div class="list-group list-div" style="width: 30rem;">
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(1);">Integers</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(2);">Fractions</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(3);">Decimals</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(4);">Rational Number</button>
+        <button type="button" class="list-group-item list-group-item-action" onclick="result(5);">Irrational Number</button>
+    </div>
+    <div class="list-group list-div" style="width: 30rem;">
+        <div class="alert alert-success">
+            <strong>1, 35, -405, -1987</strong>
+        </div>
+        <div class="alert alert-info">
+            <strong>3/4, 65/67, -43/201, -1/2</strong>
+        </div>
+        <div class="alert alert-warning">
+            <strong>0.5, 132.56, -98.903, -43.43</strong>
+        </div>
+        <div class="alert alert-danger">
+            <strong>-23.45, 68/97, -34.68, -98/137</strong>
+        </div>
+        <div class="alert alert-primary">
+            <strong>&radic;3, pi</strong>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Even & Odd Integers</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <p>If an integer is divisible by 2, it is called as an <strong>even</strong> number. It is represented as <strong>2n</strong></p>
+                <p>If an integer is not divisible by 2, it is called as an <strong>odd</strong> number. It is represented as <strong>2n+1</strong></p>
+                <p>Addition & Subtraction: </p>
+                <p><strong>E</strong> + <strong>E</strong> = <strong>E</strong></p>
+                <p><strong>E</strong> + <strong>O</strong> = <strong>O</strong></p>
+                <p><strong>O</strong> + <strong>O</strong> = <strong>E</strong></p>
+                <p>Multiplication: </p>
+                <p><strong>E</strong> X <strong>E</strong> = <strong>E</strong></p>
+                <p><strong>E</strong> X <strong>O</strong> = <strong>E</strong></p>
+                <p><strong>O</strong> X <strong>O</strong> = <strong>O</strong></p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(6);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <strong>0 is considered as even integer.</strong>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="card">
+            <div class="card-header">
+            <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Divisibility Rules</div>
+            </div>
+        
+            <br><br><br>
+            <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(7);">No. is divisble by 2</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(8);">No. is divisble by 3</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(9);">No. is divisble by 4</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(10);">No. is divisble by 5</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(11);">No. is divisble by 6</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(12);">No. is divisble by 7</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(13);">No. is divisble by 8</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(14);">No. is divisble by 9</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(15);">No. is divisble by 10</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(16);">No. is divisble by 11</button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <strong>Unit digit must be even.</strong>
+                </div>
+                <div class="alert alert-info">
+                    <strong>Sum of it's digit must be divisile by 3.</strong>
+                </div>
+                <div class="alert alert-warning">
+                    <strong>The number formed by last 2 digit must be divisble by 4.</strong>
+                </div>
+                <div class="alert alert-danger">
+                    <strong>Unit digit must be 5 or 0.</strong>
+                </div>
+                <div class="alert alert-primary">
+                    <strong>Number must fulfill 2 and 3 divisibility test.</strong>
+                </div>
+                <div class="alert alert-success">
+                    <strong>None.</strong>
+                </div>
+                <div class="alert alert-info">
+                    <strong>Last 3 digits are divisble by 8.</strong>
+                </div>
+                <div class="alert alert-warning">
+                    <strong>Sum of it's digit must be divisible by 9.</strong>
+                </div>
+                <div class="alert alert-danger">
+                    <strong>Unit digit must be 0.</strong>
+                </div>
+                <div class="alert alert-primary">
+                    <strong>Difference between sum of even digits and odd digits must be 0 or multiple of 11.</strong>
+                </div>
+            </div>
+            </div>
+            </div>
+
+            
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Prime Numbers</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <p>If an integer has two distinct factor which is one and itself, it is called as <stong>prime numbers</stong>.</p>
+                <p><strong>0</strong>, <strong>1</strong> and negative numbers are not prime numbers</p>
+                <p><strong>2</strong> is the smallest prime number.</p>
+                <p>2 is the only <strong>even</strong> prime number. All other prime numbers are odd.</p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(17);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <p>List of prime no. from 1 to 100:</p>
+                    <strong>2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89</strong>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">GCD & LCM</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <p>GCD stands for greatest common factor and LCM stands for least common multiple.</p>
+                <p>Consider <strong>a=60</strong>, <strong>b=210</strong></p>
+                <p>Factors of 60 are: <strong>2 X 2 X 3 X 5</strong></p>
+                <p>Factors of 210 are: <strong>2 X 3 X 5 X 7</strong></p>
+                <p>Pick the factor which is found common in both of them and multiply. Here GCD of (60, 210) is <strong>2 X 3 X 5</strong> = 30</p>
+                <p>LCM is prouct of GCM and the remaining factors which aren't common in both. Here LCM of (60, 120) is <strong>GCD X 2 X 7</strong> = 420</p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(18);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <p>Formula:</p>
+                    <strong> a x b = GCD x LCM</strong>
+                </div>                
+            </div>
+        </div>
+    </div>
+            
+    
+    
+    <div class="card">
+            <div class="card-header">
+            <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Rules of Exponents</div>
+            </div>
+        
+            <br><br><br>
+            <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(19);">x<sup>m</sup>x<sup>n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(20);">x<sup>m</sup>/x<sup>n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(21);">x<sup>-n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(22);">(xy)<sup>n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(23);">(x/y)<sup>n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(24);">(x<sup>m</sup>)<sup>n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(25);">n&radic;x</button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(26);">x<sup>0</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(27);">0<sup>n</sup></button>
+                <button type="button" class="list-group-item list-group-item-action" onclick="result(28);">(-1)<sup>n</sup></button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <strong>x<sup>m+n</sup></strong>
+                </div>
+                <div class="alert alert-info">
+                    <strong>x<sup>m-n</sup></strong>
+                </div>
+                <div class="alert alert-warning">
+                    <strong>1/x<sup>n</sup></strong>
+                </div>
+                <div class="alert alert-danger">
+                    <strong>x<sup>m</sup>x<sup>n</sup></strong>
+                </div>
+                <div class="alert alert-primary">
+                    <strong>x<sup>m</sup>/x<sup>n</sup></strong>
+                </div>
+                <div class="alert alert-success">
+                    <strong>x<sup>mn</sup></strong>
+                </div>
+                <div class="alert alert-info">
+                    <strong>x<sup>1/n</sup></strong>
+                </div>
+                <div class="alert alert-warning">
+                    <strong>1</strong>
+                </div>
+                <div class="alert alert-danger">
+                    <strong>0</strong>
+                </div>
+                <div class="alert alert-primary">
+                    <strong>If n is even, then result would be 1 and if n is odd, then result would be -1.</strong>
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Ratio and Proprtions</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 37rem;">
+                <p>In a class, student who has selected English, French and German are in ratio 3 : 2 : 4. Find the number of students learning in French if total number of students in class are 81?</p>
+                <p>Ans: So the number of students who has selected French is <strong> 2 / (3 + 2 + 4) = 2 / 9 of the total number of students in class.</strong></p>
+                <p>Therefore, the number of students who has selected French is <strong> (2 / 9) x 81 = 18</strong></p>
+                
+            </div>
+        </div>
+    </div>        
+            
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Percentage</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <p>Percent sttands for the number divided by 100. e.g. what is <strong>68%</strong>? ans: <strong>68/100</strong></p>
+                <p>e.g. Find x % y ?  <strong>x/100</strong> * <strong>y</strong></p>
+                <p>Key points to remember: </p>
+                <p>In percentage word problem <strong>'is'</strong> stands for <strong>=</strong> and <strong>'of'</strong> stands for <strong>multiplication</strong>.</p>
+                <p>e.g. 6 is what percent of 25? ans: 6 = a x 25/100</p>
+                <p>Percentage Change: <strong>The Change / Original Value</strong></p>
+                <p>e.g. what is percentage increase from 50 to 10?  <strong>(50 - 10)/50 x 100</strong> = 80</p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(29);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <p>Formula:</p>
+                    <strong>Find 19% of 60?</strong>
+                    <p>We know that <strong>10% of 60 = 6</strong>. So <strong>20% of 60</strong> would be <strong>6 x 2 = 12</strong></p>
+                    <p><strong>1% of 60 = 0.6</strong></p>
+                    <p>So to obtain 19% of 60 subtract the two result <strong>12 - 0.6 = 11.4</strong></p>
+
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="card">
+        <div class="card-header">
+                <div class="badge badge-primary text-wrap head-wrap" style="width: 30rem; font-size: large; font-stretch: extra-expanded;">Place Values</div>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-div" style="width: 30rem;">
+                <p>Consider a number 6587.249. The respective place values of digits are as follows:</p>
+                <p>9 - <strong>one thousandth</strong></p>
+                <p>4 - <strong>one hundredth</strong></p>
+                <p>2 - <strong>one tenth</strong></p>
+                <p>7 - <strong>Ones (units)</strong></p>
+                <p>8 - <strong>Tenth</strong></p>
+                <p>9 - <strong>Hundreds</strong></p>
+                <p>6 - <strong>Thousands</strong></p>
+                <button type="button" class="btn btn-primary" style="width: 10rem;" onclick="result(30);">KEY NOTE</button>
+            </div>
+            <div class="list-group list-div" style="width: 30rem;">
+                <div class="alert alert-success">
+                    <strong>
+                    <p>1 million = 10<sup>6</sup></p>
+                    <p>1 billion = 10<sup>9</sup></p>
+                    <p>1 trillion = 10<sup>12</sup></p>
+                    </strong>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    
+
+          
+            
+    
+</body>
+</html>

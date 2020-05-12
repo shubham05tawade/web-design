@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400&display=swap');
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: #141518;
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+}
+.banner{
+    width: 100%;
+    background-color: #141518;
+}
+.banner .row .col-sm-6 .card{
+    background: transparent;
+    width: 708px;
+    height: 608px;
+    border: none;
+}
+.banner .row .col-sm-6 .card .card-header{
+    width: 708px;
+    height: 508px;
+    background: transparent;
+    background-image: url('/assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-anim {
+    align-self: flex-start;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.bounce-7 {
+    animation-name: bounce-7;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+@keyframes bounce-7 {
+    0%   { transform: scale(1,1)      translateY(-100px); }
+    10%  { transform: scale(1,1)      translateY(100px); }
+    30%  { transform: scale(1,1)      translateY(-20px); }
+    50%  { transform: scale(1,1)      translateY(100px); }
+    57%  { transform: scale(1,1)      translateY(-10px); }
+    64%  { transform: scale(1,1)      translateY(100px); }
+    100% { transform: scale(1,1)      translateY(-1000px);}
+}

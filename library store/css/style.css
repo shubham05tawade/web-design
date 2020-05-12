@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Gloria+Hallelujah&display=swap');
+*{
+    box-sizing: border-box;
+}
+#banner{
+    background-color: #FFD700;
+}
+.navbar-brand{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    color: #110E00;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #110E00;
+}
+#banner-note{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #110E00;
+}
+#banner-note .card{
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    transition: all ease-in-out 1s;
+}
+
+.overlay-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0D0B00;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  animation-name: overlay-anim;
+  animation-duration: 1.5s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes overlay-anim{
+    from{
+        width: 100%;
+        opacity: 1;
+    }
+    to{
+        width: 0;
+        opacity: 0;
+    }
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 2rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+#banner-note .card .card-header{
+    background-color: #0D0B00;
+    color: #fff
+}
+#banner-note .card .card-body{
+    font-family: 'Didact Gothic', sans-serif;
+}
+#buy-section{
+    background-color: #FFFCED;
+}
+#buy-menu .card{
+    box-shadow: 3px 3px 3px rgba(13, 11, 0, 0.10);
+}
+#buy-menu .card .card-footer{
+    background-color: transparent;
+    border: none;
+}
+#buy-menu .card .card-footer .btn{
+    background-color: transparent;
+    font-weight: bolder;
+    color: #0D0B00;
+    border-width: 3px;
+    border-color: #0D0B00;
+}
+#buy-menu .card .card-footer .btn:hover{
+    box-shadow: 3px 3px 3px rgba(13, 11, 0, 0.25);
+}
+#buy-section h1{
+    font-family: 'Didact Gothic', sans-serif;
+}
+#buy-section hr{
+    width: 60%;
+}
+
+
+#author-section{
+    background-color: #0D0B00;
+    color: #fff;
+}
+#author-section h1{
+    font-family: 'Didact Gothic', sans-serif;
+}
+#author-section hr{
+    width: 60%;
+    background-color: #fff;
+}
+#author-section .card-deck .card{
+    color: #0D0B00;
+}
+#author-section .card-deck .card .card-header{
+    font-weight: bolder;
+}
+#author-section .card-deck .card .card-text{
+    padding-top: 0;
+}
+.rounded-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 70%;
+    top: -28px;
+    background-color: #F7347A;
+    box-shadow: 3px 3px 3px rgba(13, 11, 0, 0.25);
+}
+.rounded-circle p{
+    margin-top: -16px;
+    margin-left: 8px;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #FFFCED;
+}
+.rounded-circle:hover, .rounded-circle p{
+    text-shadow: 3px 3px 3px rgba(13, 11, 0, 0.25);
+    cursor: pointer;
+    text-align: justify;
+}
+
+
+
+#feedback-section h1{
+    margin-top: 60px;
+}
+#feedback-section hr{
+    margin-top: 30px;
+    width: 60%;
+}
+
+
+footer{
+    background-color: #0D0B00;
+    color: #3C3B36;
+}
+.footer h5{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: lighter;
+}
+.footer hr{
+    margin-top: 30px;
+    background-color: #3C3B36;
+    width: 50%;
+}
+footer .row{
+    margin: 0 0;
+    padding: 0 0;
+}
+.fa-facebook{
+    color: #FFD700;
+    font-size: 2rem;
+}
+.fa-twitter{
+    color: #FFD700;
+    font-size: 2rem;
+}
+.fa-google{
+    color: #FFD700;
+    font-size: 2rem;
+}
+.fa-github{
+    color: #FFD700;
+    font-size: 2rem;
+}

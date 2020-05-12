@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: #141d26;
+}
+.navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.nav-item .nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.banner .container-fluid{
+    background-color: #FAFAFA;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.banner .col-sm-5{
+    height: 60vh;
+}
+.banner .col-sm-7{
+    height: 60vh;
+}
+.banner .row{
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.banner .col-sm-5 h3{
+    margin-top: 10vh;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.banner .col-sm-5 p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 6vh;
+    font-size: 1.2rem;
+}
+.banner .col-sm-5 button{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    background-color: #141d26;
+    color: #fff;
+    box-shadow: 0 5px 7px #b4b4b4;
+}
+.category .container-fluid{
+    padding: 4% 4%
+}
+.category .container-fluid h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+} 
+.category .container-fluid hr{
+    background-color: #c51f5d;
+    width: 60%;
+    margin-top: 5vh;
+    margin-bottom: 9vh;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.category .row .card-title{
+    margin-top: 4vh;
+}
+.category .row .card-body{
+    margin-top: 1vh;
+}
+.category .row .col-sm-2:nth-child(1){
+    background-color: #FBEEED;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DF574F;
+}
+.category .row .col-sm-2:nth-child(3){
+    background-color: #FAEFC1;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2D554;
+}
+.category .row .col-sm-2:nth-child(2){
+    background-color: #B1E8CB;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3DC77F;
+}
+.category .row .col-sm-2:nth-child(4){
+    background-color: #B9D9ED;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #52A0D2;
+}
+.category .row .col-sm-2{
+    transition: all 0.3s ease-in-out;
+}
+.category .row .col-sm-2:hover{
+    box-shadow: 0px 10px 20px #ccc;
+    cursor: pointer;
+}
+
+.category .row .card{
+    background-color: transparent;
+    border: none;
+}
+
